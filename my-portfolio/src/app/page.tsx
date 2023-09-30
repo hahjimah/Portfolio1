@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
+import Skip from "../components/Skip";
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
-  )
-}
+    <>
+      <Skip />
+      <Header />
+    </>
+  );
+};
 
-export default Home
+export default Home;
