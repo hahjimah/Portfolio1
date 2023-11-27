@@ -34,7 +34,7 @@ export const headerNav = [
 ];
 
 export const introText = {
-  title: "port developer",
+  title: "Web Developer",
   desc: ["talent is", "found at the end of the", "effort"],
   img: about,
 };
@@ -196,12 +196,12 @@ export const portText = [
 
 export const contactText = [
   {
-    link: "https://open.kakao.com/o/gM7YLzwf",
-    title: "KAKAO : webstupids",
+    link: "https://www.linkedin.com/in/elliot-kim-943a42171/",
+    title: "LinkedIn Profile",
   },
   {
-    link: "mailto:webstoryboy@naver.com",
-    title: "mail : webstoryboy@naver.com",
+    link: "mailto:elliotkim2125@gmail.com",
+    title: "email : elliotkim2125@gmail.com",
   },
 ];
 
