@@ -6,7 +6,7 @@ const Experience = () => {
     <section id="experience">
       <div className="experience__inner">
         <h2 className="experience__title">
-          Experiences<em> my experiences</em>
+          Experiences <em>my experiences</em>
         </h2>
         <div className="experience__desc">
           {experienceText.map((exp, key) => (
