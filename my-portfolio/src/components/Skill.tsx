@@ -4,9 +4,9 @@ import { skillText } from "../constants";
 const Skill = () => {
   return (
     <section id="skill">
-      <div className="slkll__inner">
+      <div className="skill__inner">
         <h2 className="skill__title">
-          challenge <em>나의 도전</em>
+          challenge <em>My Inspirations</em>
         </h2>
         <div className="skill__desc">
           {skillText.map((skill, key) => (

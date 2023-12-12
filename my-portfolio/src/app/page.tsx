@@ -8,7 +8,7 @@ import Skill from "../components/Skill";
 import Site from "../components/Site";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Port from "../components/Port";
+import Experience from "../components/Experience";
 import smooth from "../utils/smooth";
 import link from "../utils/link";
 
@@ -25,7 +25,7 @@ const Home = () => {
         <Intro />
         <Skill />
         <Site />
-        <Port />
+        <Experience />
         <Contact />
       </main>
       <Footer />

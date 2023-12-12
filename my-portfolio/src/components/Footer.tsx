@@ -11,15 +11,10 @@ const Footer = () => {
         </h2>
         <div className="footer__info">
           <div className="left">
-            <div className="title">
-              <a href="#">sign up</a>
-            </div>
-            <p className="desc">
-              회원가입을 하시면 댓글과 게시판 기능을 이용할 수 있습니다.
-            </p>
+            <p className="desc">Visit my social media.</p>
           </div>
           <div className="right">
-            <h3>social</h3>
+            <h3>social media</h3>
             <ul>
               {footerText.map((footer, key) => (
                 <li key={key}>
@@ -31,8 +26,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__right">
-          &copy; 2023 webstoryboy
-          <br />이 사이트는 비트를 이용하여 제작하였습니다.
+          &copy; 2023 ElliotPortfolio
+          <br />
         </div>
       </div>
     </footer>

@@ -21,7 +21,7 @@ const Site = () => {
               <h3 className="title">{site.title}</h3>
               <div className="btn">
                 <a href={site.code}>code</a>
-                <a href={site.view}>view</a>
+                {/* <a href={site.view}>view</a> */}
               </div>
               <div className="info">
                 <span>{site.info[0]}</span>
